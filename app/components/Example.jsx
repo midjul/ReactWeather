@@ -4,7 +4,10 @@ var React=require('react');
 var Example=React.createClass({
   render:function () {
    return (
-     <h3>Example componens!</h3>
+     <div>
+       <h3>Example componens!</h3>
+       <p>Welcome to examples page!</p>
+     </div>
    ) ;
   }
 });
