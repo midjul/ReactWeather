@@ -4,8 +4,12 @@ var About=React.createClass({
    return (
 
 <div>
-<h3>About</h3>
- <p>Welcome to About page</p>
+<h1 className="text-center">About</h1>
+<ul>
+  <li><a href="https://github.com/midjul">Me</a></li>
+  <li><a href="https://facebook.github.io/react/">React</a></li>
+  <li><a href="http://openweathermap.org/">OpenWeatherMap</a></li>
+</ul>
 </div>
 
    );
