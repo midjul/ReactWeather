@@ -4,7 +4,7 @@ var About=React.createClass({
    return (
 
 <div>
-<h1 className="text-center">About</h1>
+<h1 className="text-center page-title">About</h1>
 <ul>
   <li><a href="https://github.com/midjul">Me</a></li>
   <li><a href="https://facebook.github.io/react/">React</a></li>
