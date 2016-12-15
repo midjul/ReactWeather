@@ -5,9 +5,9 @@ var Main=React.createClass({
   return(
   //  <h2>Main Component</h2>
   <div>
-    <h2>Main Component</h2>
     <Nav></Nav>
-  {this.props.children} 
+    <h2>Main Component</h2>
+  {this.props.children}
   </div>
 
   );
